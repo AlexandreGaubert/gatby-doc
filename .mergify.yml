@@ -4,6 +4,7 @@ defaults:
     batch_size: 15
     batch_max_wait_time: 60 seconds
     update_method: rebase
+    merge_bot_account: hgjhgy
 queue_rules:
   - name: qsdqsd
     batch_size: 12
