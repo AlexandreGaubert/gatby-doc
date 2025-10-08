@@ -1,0 +1,3 @@
+defaults:
+    queue_rule:
+        batch_max_wait_time: "60 seconds"
