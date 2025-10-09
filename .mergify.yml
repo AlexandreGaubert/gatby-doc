@@ -6,7 +6,7 @@ defaults:
     update_method: rebase
     merge_bot_account: hgjhgy
 queue_rules:
-  - name: qsdqsd
+  - name: low prio
     batch_size: 12
     batch_max_wait_time: 30 s
     update_method: merge
