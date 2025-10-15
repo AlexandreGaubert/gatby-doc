@@ -11,4 +11,5 @@ queue_rules:
     batch_max_wait_time: 30 s
     update_method: merge
     queue_conditions:
-      - title ~= ^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?!?:"
+      - title ~= ^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?!?:\"\"
+      sddzdaz
