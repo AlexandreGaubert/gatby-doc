@@ -10,3 +10,5 @@ queue_rules:
     batch_size: 12
     batch_max_wait_time: 30 s
     update_method: merge
+    queue_conditions:
+      - <<: *DefaultQueueOptions
