@@ -1,14 +1,11 @@
-defaults:
-  queue_rule:
-    autoqueue: true
-    batch_size: 15
-    batch_max_wait_time: 60 seconds
-    update_method: rebase
-    merge_bot_account: hgjhgy
+shared:
+  common_conditions: &common_conditions
+    and:
+      - 'check-success=test'
+
 queue_rules:
-  - name: qsdqsd
-    batch_size: 12
-    batch_max_wait_time: 30 s
-    update_method: merge
+  - name: default
+    batch_size: 1
+    merge_method: squash
     queue_conditions:
-      - <<: *DefaultQueueOptions
+      - <<: *common_conditions
